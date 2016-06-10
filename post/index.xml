@@ -11,12 +11,14 @@
     <atom:link href="http://r2k0.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>hello</title>
-      <link>http://r2k0.github.io/post/hello/</link>
+      <title>Hello World!</title>
+      <link>http://r2k0.github.io/post/HelloWorld/</link>
       <pubDate>Thu, 09 Jun 2016 18:26:20 -0700</pubDate>
       
-      <guid>http://r2k0.github.io/post/hello/</guid>
-      <description>&lt;p&gt;whats up max&lt;/p&gt;
+      <guid>http://r2k0.github.io/post/HelloWorld/</guid>
+      <description>&lt;p&gt;Hello and welcome to my blog. A little background about me. I currently live in Southern California. I used to live in Northern Cali. I love food, travel, Aikido, trading  and coding. I have been to most part of Asia. I have been training Aikido for about three or four years (different styles of Aikido). I used to work as a Software Engineer for startups and major corporations. Traveling and taking a break from Software Development: I really miss coding with my favorite vim. I am now working for my self running a couple of small businesses and a startup. As I started working on my new startup, I really wanted to start blogging again. This time I decided to go with Hugo and github pages. I used to use Jekyll and used to host it on DigitalOcean. I have been comparing a few static site generators like &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;, &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, &lt;a href=&#34;http://octopress.org/&#34;&gt;Octopress&lt;/a&gt;, etc &amp;hellip; After playing with different static site generators, I decided to go with Hugo and GitHub Pages.&lt;/p&gt;
+
+&lt;p&gt;Thank you for reading my blog.&lt;/p&gt;
 </description>
     </item>
     
