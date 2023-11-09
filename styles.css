@@ -9,6 +9,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: linear-gradient(270deg, #0a0b0be0, #060d44eb, #0a0b0be0, #060d44eb);
+  background-size: 400% 400%;
+  animation: GradientWave 8s ease infinite;
 }
 
 .container {
@@ -79,7 +82,6 @@ h1.pulsate {
   overflow: hidden;
 }
 
-/* Additional styles for the interactive background */
 #interactive-background {
   position: fixed;
   top: 0;
@@ -89,20 +91,7 @@ h1.pulsate {
   z-index: -1; /* Ensure it stays in the background */
   transition: background 0.5s ease; /* Smooth transition for gradient changes */
 }
-/* Style for a pseudo-element that creates a subtle "digital rain" effect */
-body::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-  background: url('background.png'); /* Replace with path to your data rain image */
-  opacity: 0.165; /* Adjust the opacity so it doesn't overpower the content */
-  background-size: 165% 165%; /* Make the gradient large enough to allow movement */
-  animation: movingGradient 365s ease infinite; 
-}
+
 .splash__bg:hover, #interactive-background:hover {
   background: inherit; /* Or set this to a specific style you want on hover */
 }
@@ -128,7 +117,6 @@ body::before {
   animation: pulsateGlow 6s ease-in-out infinite;
 }
 
-/* Keyframes for the pulsating glow effect */
 @keyframes pulsateGlow {
   0%, 100% {
     text-shadow: 0 0 10px rgba(173, 216, 230, 0.7), 
@@ -141,5 +129,17 @@ body::before {
                  0 0 25px rgba(173, 216, 230, 0.9), 
                  0 0 35px rgba(173, 216, 230, 0.9), 
                  0 0 45px rgba(173, 216, 230, 0.9);
+  }
+}
+
+@keyframes GradientWave {
+  0% {
+    background-position: 50% 0%;
+  }
+  50% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 50% 0%;
   }
 }
